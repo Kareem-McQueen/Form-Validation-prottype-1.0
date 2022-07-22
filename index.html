@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Form Validation</title>
+</head>
+
+
+
+
+<body bg-white>
+  <div class="relative bg-gray-800 flex flex-col justify-center min-h-screen overflow-hidden">
+    <div class="w-full p-6 m-auto bg-white rounded shadow-lg ring-2 ring-grey-800/50 lg:max-w-md">
+      <h1 class="text-3xl font-semibold text-center text-gray-700">LOGO</h1>
+          <form action='/' class="mt-6">
+            <div>
+              <label for="email" class="block text-sm text-gray-800">Email</label>
+              <input id="email" type="text"email" name="email"
+                class="block w-full px-4 py-2 mt-2 text-gray-700 bg-white border rounded-md focus:border-gray-400 focus:ring-gray-300 focus:outline-none focus:ring focus:ring-opacity-40"
+                placeholder="Email">
+              <div id="error"></div>
+            </div>
+            <div class="mt-4">
+              <div>
+                <label for="password" class="block text-sm text-gray-800">Password</label>
+                <input id="password" type="password"
+                  class="block w-full px-4 py-2 mt-2 text-gray bg-white border rounded-md focus:border-gray-400 focus:ring-gray-300 focus:outline-none focus:ring focus:ring-opacity-40 placeholder=" placeholder="Password">
+              <div class="id"></div>
+            </div>
+            <div class="mt-6">
+              <button
+                class="w-full px-4 py-2 tracking-wide text-white transition-colors duration-200 transform bg-gray-700 rounded-md hover:bg-gray-600 focus:outline-none focus:bg-gray-600">
+                Login
+              </button>
+            </div>
+          </form>
+        </div>
+
+
+<script src="app.js"></script>
+</body>
+</html>
